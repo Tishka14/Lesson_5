@@ -1,0 +1,150 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style : none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+html,
+body {
+    height: 100%;
+}
+html {
+    font-size: 16px;
+}
+body {
+    line-height: 1;
+    font-family: "montserrat";
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+
+.image {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 50%;  
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgb(141, 83, 83);
+    text-align: center;
+    text-shadow: 3px 2px 2px #473b3b;
+    margin: auto auto 50px auto;
+}
+.heading2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(141, 83, 83);
+    text-align: center;
+    margin: auto auto 30px auto;  
+}
+.link {
+    display: inline-block;
+    margin: auto auto 30px 30px;
+}
+.paragraph, .paragraph2, .paragraph3,
+.paragraph4, .paragraph5 {
+    background-color: rgb(163, 154, 154);
+    margin: 30px;
+    padding: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.image1 {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 50%;
+}
+
+.image2 {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 50%;
+}
+.image3 {
+    display: block;
+    margin: 0 0 50px auto;
+    width: 50%;
+}
+.some, .some2, .some3, .some4 {
+    display: block;
+    color: white;
+    margin: 20px 90% 20px 20px;
+    padding: 5px;
+    background-color: rgb(163, 154, 154);
+}
+.text, .text2, .text3  {
+    background-color: rgb(163, 154, 154);
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 15px;
+    margin: 15px;
+}
+.paragraph6, .paragraph7, .paragraph8 {
+    background-color: rgb(112, 104, 104);
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 100px;
+    margin: 30px auto 30px 30px;
+    padding: 10px;
+}
+.text4 {
+    background-color: rgb(112, 104, 104);
+    color: white;
+    padding: 30px;
+    margin: 0px 60px 0px 40px;
+}
+.text5 {
+    background-color: rgb(112, 104, 104);
+    color: white;
+    padding: 30px;
+    margin: -55px 40px 50px 60px;
+
+}
+.some5 {
+    display: block;
+    background-color: rgb(112, 104, 104);
+    color: white;
+    padding: 10px;
+    margin: 100px;
+    max-height: 200px;
+    overflow: auto;
+
+}
